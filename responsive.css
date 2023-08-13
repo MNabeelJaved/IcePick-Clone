@@ -1,0 +1,81 @@
+@media (min-width: 320px) and (max-width: 480px) {
+  /* Your styles for mobile devices here */
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  /* Your styles for tablet devices here */
+}
+
+@media screen and (max-width: 842px) {
+  .navbar {
+    display: none;
+  }
+  .star-rating {
+    width: 280px;
+  }
+  .main h1 {
+    font-size: 2.4rem;
+  }
+  .main p {
+    font-size: 1rem;
+  }
+  .star-rating {
+    margin-top: 80px;
+  }
+  .section-2 {
+    height: 600px;
+  }
+  .tag-lin {
+    margin: 0px;
+  }
+
+  .box {
+    flex-wrap: wrap;
+  }
+  .left-box {
+    width: 80%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 10px;
+    background-color: none;
+  }
+  .left-box img {
+    background: none;
+    padding:0;
+    border-radius: 0;
+  }
+
+  .right-box {
+    width: 80%;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 10;
+    border-bottom-right-radius: 10px;
+  }
+  .right-box img {
+    background: none;
+    padding:0;
+    border-radius: 0;
+  }
+  .brand-logos img {
+    width: 70px;
+  }
+  .btn button {
+    padding: 14px 26px;
+  }
+  .tag-lin p {
+    font-size: 1rem;
+  }
+  .heading {
+    margin-top: 141px;
+  }
+  .heading h1 {
+    font-size: 2.5rem;
+  }
+  .img-logo img {
+    width: 24px;
+    margin: 11px 10px;
+  }
+  .tech h1 {
+    font-size: 2.2rem;
+  }
+}
